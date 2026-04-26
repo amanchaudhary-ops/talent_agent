@@ -59,7 +59,10 @@ source venv/bin/activate   # Windows: venv\Scripts\activate
 # 3. Install dependencies
 pip install -r requirements.txt
 
-# 4. Edit .env and set you API KEY
+# 4. Edit .env and set you API KEY(use any one of them)
+ANTHROPIC_API_KEY=your-api-key
+OPENAI_API_KEY=your-api-key
+GOOGLE_API_KEY=your-api-key
 
 # 5. Run
 streamlit run app.py
